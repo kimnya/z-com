@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        로그아웃 레이아웃
+        {children}
+      </body>
     </html>
   );
 }
