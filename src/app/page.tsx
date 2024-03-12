@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <div className={styles.container}>
-        로그아웃 페이지
         <div className={styles.left}>
           <Image
             src={zlogo}
@@ -18,7 +17,7 @@ export default function Home() {
         <div className={styles.right}>
           <h1>지금 일어나고 있는 일</h1>
           <h2>지금 가입하세요.</h2>
-          <Link className={styles.signup} href="/signup">
+          <Link className={styles.signup} href="i/flow/signup">
             계정만들기
           </Link>
           <h3>이미 트위터에 가입하셨나요?</h3>
