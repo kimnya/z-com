@@ -6,10 +6,5 @@ type props = {
 };
 
 export default function layout({ children }: props) {
-  return (
-    <div>
-      애프터 레이아웃
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 }
