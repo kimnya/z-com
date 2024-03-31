@@ -67,24 +67,6 @@
 .postButton:hover {
   background-color: rgb(26, 140, 216);
 }
-/*  */
-/* 
-.leftSectionFixed nav {
-  flex: 1;
-}
-.leftSectionFixed nav li {
-  list-style-type: none;
-}
-
-
-
-
-
-
-
-.postButton:hover {
-  background-color: rgb(26, 140, 216);
-} */
 
 .rightSectionWrapper {
   display: flex;
@@ -139,10 +121,6 @@
   font-size: 15px;
 }
 
-/* 
-
-
-
 .followRecommend {
   font-size: 20px;
   font-weight: bold;
@@ -153,4 +131,4 @@
 }
 .followRecommend h3 {
   padding-bottom: 12px;
-} */
+}

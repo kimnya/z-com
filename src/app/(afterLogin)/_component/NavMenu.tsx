@@ -49,9 +49,9 @@ export default function NavMenu() {
       </li>
 
       <li>
-        <Link href="/explore">
+        <Link href="/search">
           <div className={style.navPill}>
-            {segment === "explore" ? (
+            {segment === "search" ? (
               <>
                 <svg
                   width={26}
